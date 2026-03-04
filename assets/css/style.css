@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.checklist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.checklist li {
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.checklist li.completed {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.checklist li.pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
